@@ -3,14 +3,59 @@
 @tailwind utilities;
 
 .primary-1{
-    color : hsl(171, 66%, 44%);
+    /* Strong Cyan */
+    color : hsl(171, 66%, 44%); 
 }
 .primary-2{
+    /* Light Blue */
     color : hsl(233, 100%, 69%);
 }
 .neutral-1{
+    /* Dark Grayish Blue */
     color : hsl(210, 10%, 33%)
 }
 .neutral-2{
+    /* Dark Grayish Blue */
     color : hsl(201, 11%, 66%)
+}
+
+.bg-primary-1{
+    /* Strong Cyan */
+    background-color : hsl(171, 66%, 44%); 
+}
+.bg-primary-2{
+    /* Light Blue */
+    background-color : hsl(233, 100%, 69%);
+}
+.bg-neutral-1{
+    /* Dark Grayish Blue */
+    background-color : hsl(210, 10%, 33%);
+}
+.bg-neutral-2{
+    /* Dark Grayish Blue */
+    background-color : hsl(201, 11%, 66%);
+}
+
+
+.border-primary-1{
+    /* Strong Cyan */
+    border-color : hsl(171, 66%, 34%); 
+}
+.border-primary-2{
+    /* Light Blue */
+    border-color : hsl(243, 100%, 29%);
+}
+
+.title-center{
+   @apply font-[600] neutral-1 mt-24 text-center text-4xl;
+}
+.title{
+   @apply font-[600] neutral-1 text-4xl;
+}
+.title-list{
+    
+   @apply font-[600] neutral-1 text-2xl;
+}
+.text{
+    @apply font-[400] text-lg neutral-2 w-full;
 }
