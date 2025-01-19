@@ -91,3 +91,5 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 =======
+
+Before using the tailwind css style you should run the command npm run build and then npm run watch 

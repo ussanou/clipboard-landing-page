@@ -1,0 +1,24 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/style.css",
+    "watch" : "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ussanou/clipboard-landing-page.git"
+  },
+  "keywords": [
+    "clipboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ussanou/clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/ussanou/clipboard-landing-page#readme"
+}
