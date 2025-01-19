@@ -56,6 +56,12 @@
     
    @apply font-[600] neutral-1 text-2xl;
 }
-.text{
+.para{
     @apply font-[400] text-lg neutral-2 w-full;
+}
+.para-sm{
+    @apply font-[400] text-sm neutral-2 w-full;
+}
+.para-footer{
+    @apply font-[600] text-center text-base neutral-2 w-full;
 }
