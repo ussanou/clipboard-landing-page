@@ -46,6 +46,9 @@
     border-color : hsl(243, 100%, 29%);
 }
 
+.title-h1{
+   @apply font-[600] neutral-1 mt-24 text-center text-6xl;
+}
 .title-center{
    @apply font-[600] neutral-1 mt-24 text-center text-4xl;
 }
@@ -57,7 +60,7 @@
    @apply font-[600] neutral-1 text-2xl;
 }
 .para{
-    @apply font-[400] text-lg neutral-2 w-full;
+    @apply font-[400] text-lg neutral-2 w-full ;
 }
 .para-sm{
     @apply font-[400] text-sm neutral-2 w-full;

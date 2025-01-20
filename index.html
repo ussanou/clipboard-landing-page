@@ -16,17 +16,17 @@
   <title>Clipboard landing page</title>
 
 </head>
-<body class = "h-screen flex flex-col items-center gap-4 font-bai">
+<body class = "min-h-screen relative flex flex-col items-center gap-4 font-bai">
   <header class="w-full h-[220px] bg-[url('../images/bg-header-mobile.png')] bg-no-repeat bg-cover md:bg-[url('../images/bg-header-desktop.png')]">
     <div class="w-full flex justify-center items-end h-full bg-gradient-to-t from-white to-transparent py-8">
       <img class="w-24 h-24" src="./images/logo.svg" alt="Logo">
     </div>
   </header>
   
-  <div class="title-center px-8 md:px-0">
+  <h1 class="title-h1 px-8 md:px-0">
     A history of everything you copy
-  </div>
-  <div class="para-md text-center  px-8 md:w-3/6 md:px-10">
+  </h1>
+  <div class="para-md text-center neutral-2 px-8 md:w-3/6 md:px-10">
     Clipboard allows you to track and organize everything you 
     copy. Instantly access your clipboard on all your devices
   </div> 
@@ -37,7 +37,7 @@
     <div class="title-center px-8 md:px-0">
       Keep track of your snippets
     </div>
-    <div class="para-md text-center  px-6 md:w-3/6 md:px-0  mb-12">
+    <div class="para-md text-center neutral-2 neutral-2 px-6 md:w-3/6 md:px-0  mb-12">
       Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.
     </div> 
 
@@ -48,7 +48,7 @@
           <div class="title">
             Quick Search
           </div>
-          <div class="para-md md:w-1/2 md:px-0">
+          <div class="para-md md:w-1/2 md:px-0 neutral-2">
             Easily search your snippets by content, category, web address, application, and more.
           </div> 
         </div>
@@ -56,7 +56,7 @@
           <div class="title">
             iCloud Sync
           </div>
-          <div class="para-md md:w-1/2 md:px-0">
+          <div class="para-md md:w-1/2 md:px-0 neutral-2">
             Instantly saves and syncs snippets across all your devices.
         </div> 
         </div>
@@ -64,7 +64,7 @@
           <div class="title">
             Complete History
           </div>
-          <div class="para-md md:w-1/2 md:px-0">
+          <div class="para-md md:w-1/2 md:px-0 neutral-2">
             Retrieve any snippets from the first moment you started using the app.
           </div> 
         </div>
@@ -132,20 +132,13 @@
       Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
   and you’re ready to start adding to your clipboard.
     </div> 
-    <div class="w-full flex flex-col md:flex-row justify-center items-center gap-4 font-[600] text-md text-white px-8 my-10">
+    <div class="w-full flex flex-col md:flex-row justify-center items-center gap-4 font-[600] text-md text-white px-8">
       <div class="w-full md:w-fit text-center bg-primary-1 rounded-full border-b-2 border-primary-1 px-10 py-3 hover:opacity-90 cursor-pointer shadow-[0px_4px_8px_rgba(25,153,102,0.3)] duration-500 ease-in-out">Download for iOS</div>
       <div class="w-full md:w-fit text-center bg-primary-2 rounded-full border-b-2 border-primary-2 px-10 py-3 hover:opacity-90 cursor-pointer shadow-[0px_4px_8px_rgb(50,50,255,0.3)] duration-500 ease-in-out">Download for Mac</div>
     </div>
-
-  
-
-
   
   
-  
-  
-  
-    <footer class="w-full bg-gray-50">
+    <footer class="absolute left-0 bottom-0 w-full bg-gray-50">
       <div class="section-container">
         <div class="flex flex-col items-center justify-between md:flex-row px-20">
           <!-- Image -->
@@ -180,9 +173,9 @@
 
             <!-- Social Icons -->
             <div class="flex justify-between w-32 py-1">
-              <a href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200 ficon"></a>
-              <a href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200 ficon"></a>
-              <a href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200 ficon"></a>
+              <a href="#"><img src="images/icon-facebook.svg" alt="facebook" class="duration-200 ficon"></a>
+              <a href="#"><img src="images/icon-twitter.svg" alt="twitter" class="duration-200 ficon"></a>
+              <a href="#"><img src="images/icon-instagram.svg" alt="instagram" class="duration-200 ficon"></a>
             </div>
           </div>
         </div>
